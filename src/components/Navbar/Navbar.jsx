@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
+import images from "../../constants/images";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt="restaurant logo" />
+        <img src={images.logo} alt="restaurant logo" />
       </div>
       <ul className="navbar-links">
         <li>
