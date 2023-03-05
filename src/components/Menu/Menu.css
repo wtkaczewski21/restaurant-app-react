@@ -1,0 +1,43 @@
+.menu {
+  background-color: rgba(0, 0, 0, 0.99);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 6rem;
+  flex-direction: column;
+}
+
+.menu-title {
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.menu-heading {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.menu-img {
+  width: 400px;
+}
+
+.menu-img img {
+  width: 100%;
+}
+
+.menu-items {
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 1150px) {
+  .menu-content {
+    flex-direction: column;
+  }
+}

@@ -8,7 +8,7 @@ function Header() {
     <div className="header" id="home">
       <div className="header-text">
         <SubHeading title="Tasty & Delicious Food" />
-        <h1 className="header-header">May the best food find your appetite.</h1>
+        <h1 className="custom-header">May the best food find your appetite.</h1>
         <p className="header-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
           repudiandae. Ab corporis, debitis, accusantium quam officia, nesciunt

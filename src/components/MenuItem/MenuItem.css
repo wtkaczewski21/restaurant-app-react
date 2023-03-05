@@ -1,0 +1,32 @@
+.menu-item {
+  margin: 3rem 0;
+}
+
+.menu-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item-name {
+  color: yellow;
+  flex: 1;
+}
+
+.menu-item-dash {
+  width: 90px;
+  height: 1px;
+  background: yellow;
+  margin: 0 1rem;
+}
+
+.menu-item-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.menu-item-sub {
+  color: #aaa;
+  margin-top: 0.4rem;
+}

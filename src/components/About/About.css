@@ -15,7 +15,7 @@
   text-align: right;
 }
 
-.about-header {
+.custom-header {
   color: gold;
   font-size: 64px;
   line-height: 83.2px;
@@ -28,17 +28,6 @@
   line-height: 28px;
   font-size: 16px;
   margin: 2rem 0;
-}
-
-.custom-button {
-  background-color: rgb(250, 250, 100);
-  color: black;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 1rem 1.5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
 }
 
 .about-fork {

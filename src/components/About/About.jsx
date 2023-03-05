@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="about" id="about">
       <div className="about-aboutus">
-        <h2 className="about-header">About Us</h2>
+        <h2 className="custom-header">About Us</h2>
         <p className="about-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           recusandae voluptatum rem. Rerum ipsum cum eius quae officia, nisi
@@ -21,7 +21,7 @@ function About() {
         <img src={images.fork} alt="about fork" />
       </div>
       <div className="about-history">
-        <h2 className="about-header">Our History</h2>
+        <h2 className="custom-header">Our History</h2>
         <p className="about-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           recusandae voluptatum rem. Rerum ipsum cum eius quae officia, nisi
