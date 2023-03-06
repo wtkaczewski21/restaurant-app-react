@@ -57,9 +57,9 @@
 }
 
 @media screen and (max-width: 650px) {
-  .header-header {
-    font-size: 40px;
-    line-height: 70px;
+  .header-text {
+    align-items: center;
+    text-align: center;
   }
 
   .header-image img {
