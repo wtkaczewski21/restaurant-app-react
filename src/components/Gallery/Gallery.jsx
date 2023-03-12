@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
-import SubHeading from "../SubHeading/SubHeading";
-import "./Gallery.css";
+import { SubHeading } from "../../components";
 import images from "../../constants/images";
+import "./Gallery.css";
 
 const galleryImages = [
   images.gallery01,
@@ -27,7 +27,7 @@ function Gallery() {
     <div className="gallery" id="gallery">
       <div className="gallery-content">
         <SubHeading title="Our Food" />
-        <h2 className="custom-header">Photo Gallery</h2>
+        <h2 className="custom-heading">Photo Gallery</h2>
         <p className="gallery-content-p">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
           alias corporis illum dolores tenetur pariatur numquam nam beatae,

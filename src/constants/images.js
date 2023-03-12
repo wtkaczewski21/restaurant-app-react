@@ -7,6 +7,7 @@ import gallery02 from "../assets/gallery02.jpg";
 import gallery03 from "../assets/gallery03.jpg";
 import gallery04 from "../assets/gallery04.jpg";
 import gallery05 from "../assets/gallery05.jpg";
+import contact from "../assets/contact.jpg";
 
 export default {
   logo,
@@ -18,4 +19,5 @@ export default {
   gallery03,
   gallery04,
   gallery05,
+  contact,
 };

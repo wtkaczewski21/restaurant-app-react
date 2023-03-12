@@ -1,10 +1,16 @@
 import React from "react";
 import "./App.css";
-import About from "./components/About/About";
-import Gallery from "./components/Gallery/Gallery";
-import Header from "./components/Header/Header";
-import Menu from "./components/Menu/Menu";
-import Navbar from "./components/Navbar/Navbar";
+
+import {
+  About,
+  Contact,
+  Footer,
+  Gallery,
+  Header,
+  Menu,
+  Navbar,
+  Newsletter,
+} from "./components";
 
 function App() {
   return (
@@ -14,6 +20,9 @@ function App() {
       <About />
       <Menu />
       <Gallery />
+      <Contact />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }

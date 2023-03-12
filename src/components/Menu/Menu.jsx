@@ -1,18 +1,15 @@
 import React from "react";
-
-import SubHeading from "../../components/SubHeading/SubHeading";
-import MenuItem from "../../components/MenuItem/MenuItem";
-
-import "./Menu.css";
+import { SubHeading, MenuItem } from "../../components";
 import images from "../../constants/images";
 import data from "../../constants/data";
+import "./Menu.css";
 
 function Menu() {
   return (
     <div className="menu" id="menu">
       <div className="menu-title">
         <SubHeading title="Menu that fits your taste" />
-        <h1 className="custom-header">Today's Special</h1>
+        <h2 className="custom-heading">Today's Special</h2>
       </div>
       <div className="menu-content">
         <div className="menu-cocktails">

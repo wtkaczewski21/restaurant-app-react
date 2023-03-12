@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Open+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +11,14 @@ a {
   color: white;
 }
 
-.custom-header {
-  color: gold;
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.custom-heading {
+  color: #ffef00;
   font-size: 64px;
+  font-family: "Exo", sans-serif;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;

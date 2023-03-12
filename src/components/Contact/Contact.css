@@ -1,0 +1,71 @@
+.contact-container {
+  background-color: rgba(0, 0, 0, 0.99);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem 6rem;
+}
+
+.contact-info {
+  flex: 1;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.contact-hours-heading {
+  color: #ffef00;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.contact-info h2 {
+  margin-bottom: 3rem;
+}
+
+.contact-info button {
+  margin-top: 2rem;
+}
+
+.contact-image {
+  width: 850px;
+}
+
+.contact-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1450px) {
+  .contact-image {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    align-items: center;
+  }
+
+  .contact-image {
+    margin-top: 4rem;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-image {
+    width: 300px;
+  }
+}
